@@ -10,13 +10,15 @@
   <body>
     <div class="flex-container">
       <div class="title"><h1>SKETCHPAD</h1></div>
+      <div class="mode">Mode: Coloring</div>
       <div class="content">
         <div class="board"></div>
         <div class="buttons">
-          <button>black</button>
-          <button>white</button>
-          <button>random</button>
-          <button>reset</button>
+          <button onclick="changeColor('black')">black</button>
+          <button onclick="changeColor('white')">Erasor</button>
+          <button onclick="changeColor('gray')">gray</button>
+          <button onclick="changeColor('random')">random</button>
+          <button onclick="resetBoard()">reset</button>
         </div>
         <div>
           <input
@@ -30,5 +32,5 @@
       </div>
     </div>
   </body>
-  <script src="main.js"></script>
+  <script src="java.js"></script>
 </html>
