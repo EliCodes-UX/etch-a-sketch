@@ -1,0 +1,93 @@
+header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  height: 240px;
+}
+#titles {
+  display: flex;
+  margin: 5px;
+  padding: 0.9px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#title {
+  font-size: 48px;
+  padding: 0px;
+  margin-block: initial;
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+#title-subtext {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+#dev {
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-color: #1f2937;
+  padding: auto;
+  margin: auto;
+}
+.navbar {
+  background-color: #1f2937;
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+nav {
+  background-color: #f9faf8;
+}
+nav li {
+  display: inline-block;
+  padding-right: 15px;
+  position: relative;
+  top: 0px;
+}
+#top-logo {
+  border-radius: 100%;
+}
+#top-intro {
+  border-bottom: 1px solid darkgoldenrod;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 35px;
+  height: 24%;
+  width: 25%;
+  justify-items: center;
+  justify-content: space-between;
+}
+.project-div {
+  display: flex;
+  border: 1px solid #1f2937;
+}
+.project-img {
+  object-fit: fill;
+  height: 225px;
+  width: 200px;
+  border: 1px #1f2937;
+}
+#quote {
+  background-color: #e5e7eb;
+  height: 150px;
+  display: flex;
+  align-items: baseline;
+  margin-top: 24px;
+}
+.Java {
+  display: flex;
+  color: black;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
